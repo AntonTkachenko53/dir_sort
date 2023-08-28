@@ -51,6 +51,7 @@ def get_folder_objects(root_path):
 def main(folder_path):
     scan.scan(folder_path)
 
+
     for file in scan.images:
         handle_file(file, folder_path, "images")
 
